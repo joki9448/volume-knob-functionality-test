@@ -1,0 +1,40 @@
+body {
+    background: radial-gradient(#333, #111);
+    margin: 0;
+    font-family: 'system-ui', sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.player {
+    width: 20em;
+    color: #fff;
+    margin-right: 5em;
+    background: #333;
+    border-radius: 8px;
+    padding: 1em;
+    box-shadow: 0 0 15px #1f1f1f;
+}
+
+.player span, .player small {
+    color: #ccc;
+
+}
+
+.player h2 {
+    margin: 0.3em 0 0 0;
+}
+
+.cover {
+    position: relative;
+}
+
+.player {
+    width: 100%;
+}
+
