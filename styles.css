@@ -113,3 +113,19 @@ body {
     width: 50%;
     box-shadow: 0px 0px 10px #ff3686;
 }
+
+@media screen and (max-width: 800px) {
+    .knob-container {
+        font-size: 13px;
+    }
+    .container {
+        flex-direction: column;
+    }
+    .player {
+        margin: 0 0 5em 0;
+    }
+    .player img {
+        height: 10em;
+        object-fit: cover;
+    }
+}
